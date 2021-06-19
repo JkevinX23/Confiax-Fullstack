@@ -1,8 +1,7 @@
 import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.footer`
-  ${({ theme }) => css`
-    background: ${theme.colors.black};
+    background: #222;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -10,7 +9,6 @@ export const Wrapper = styled.footer`
     position: absolute;
     width: 100vw;
     bottom: 0;
-  `}
 `
 
 export const TextWrapper = styled.p`

@@ -28,3 +28,5 @@ export const Table = styled.div`
 export const Menu = styled.div`
   max-width: 10rem;
 `
+
+export default Wrapper

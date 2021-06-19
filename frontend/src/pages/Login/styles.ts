@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled  from 'styled-components'
 
 export const Wrapper = styled.div`
     background: linear-gradient(180deg, rgba(33,147,176,1) 0%, rgba(109,213,237,1) 100%);
@@ -109,3 +109,4 @@ export const Form = styled.div`
     align-items: center;
 
 `
+export default Wrapper

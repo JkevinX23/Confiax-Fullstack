@@ -1,41 +1,6 @@
 import { createGlobalStyle, css } from 'styled-components'
 
 const GlobalStyled = createGlobalStyle`
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local(''),
-        url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  }
-
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local(''),
-        url('../fonts/montserrat-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  }
-
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: local(''),
-        url('../fonts/montserrat-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  }
-
-  @font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src: local(''),
-        url('../fonts/poppins-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  }
 
   *{
     margin: 0;
@@ -45,7 +10,6 @@ const GlobalStyled = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  ${({ theme }) => css`
     html {
       font-size: 62.5%;
     }
@@ -56,10 +20,9 @@ const GlobalStyled = createGlobalStyle`
     }
 
     body {
-      font-family: ${theme.fonts.family};
-      font-size: ${theme.fonts.sizes.small};
+      font-family:  "Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif";
+      font-size: 1.6rem;
     }
-  `}
 `
 
 export default GlobalStyled
