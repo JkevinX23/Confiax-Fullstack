@@ -4,7 +4,7 @@ Teste para avaliação Vaga FullStack NodeJs, ReactJs, NestJs, Typescript
 
 ## Como rodar o projeto. 
 
-> 1. Clone o repositório. 
+> 1. Clone o repositório e acesse a pasta "backend". 
 > 2. Precisamos que um banco de dados mysql seja configurado, para isso:
 >>  2.1 Copie o arquivo .env.example para um arquivo .env <br/>
 >>  2.2 Crie um Banco de Dados mysql e insira os parametros no arquivo .env  <br/>
